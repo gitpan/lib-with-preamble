@@ -20,8 +20,8 @@ no_index:
 requires:
   File::Spec: '0'
   PerlIO::via::dynamic: '0.02'
-  perl: '5.006'
+  perl: '5.008001'
 resources:
   bugtracker: https://rt.cpan.org/Public/Dist/Display.html?Name=lib-with-preamble
   repository: git://git.shadowcat.co.uk/p5sagit/lib-with-preamble.git
-version: '0.001000'
+version: '0.001001'

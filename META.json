@@ -34,7 +34,7 @@
          "requires" : {
             "File::Spec" : "0",
             "PerlIO::via::dynamic" : "0.02",
-            "perl" : "5.006"
+            "perl" : "5.008001"
          }
       }
    },
@@ -50,5 +50,5 @@
          "web" : "http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=p5sagit/lib-with-preamble.git"
       }
    },
-   "version" : "0.001000"
+   "version" : "0.001001"
 }
