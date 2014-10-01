@@ -3,8 +3,8 @@
    "author" : [
       "mst - Matt S. Trout (cpan:MSTROUT) <mst@shadowcat.co.uk>"
    ],
-   "dynamic_config" : 1,
-   "generated_by" : "ExtUtils::MakeMaker version 6.62, CPAN::Meta::Converter version 2.120921",
+   "dynamic_config" : 0,
+   "generated_by" : "ExtUtils::MakeMaker version 6.98, CPAN::Meta::Converter version 2.142690",
    "license" : [
       "perl_5"
    ],
@@ -32,10 +32,23 @@
       },
       "runtime" : {
          "requires" : {
-            "PerlIO::via::dynamic" : "0.02"
+            "File::Spec" : "0",
+            "PerlIO::via::dynamic" : "0.02",
+            "perl" : "5.006"
          }
       }
    },
    "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-lib-with-preamble@rt.cpan.org",
+         "web" : "https://rt.cpan.org/Public/Dist/Display.html?Name=lib-with-preamble"
+      },
+      "repository" : {
+         "type" : "git",
+         "url" : "git://git.shadowcat.co.uk/p5sagit/lib-with-preamble.git",
+         "web" : "http://git.shadowcat.co.uk/gitweb/gitweb.cgi?p=p5sagit/lib-with-preamble.git"
+      }
+   },
    "version" : "0.001000"
 }
